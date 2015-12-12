@@ -22,7 +22,7 @@ public class App
         numbers = numbers.stream().filter(i -> i%2==0).sorted().collect(Collectors.toList());
         numbers.forEach(System.out::println);
 
-        System.out.println("List of even numbers");
+        System.out.println("List of even numbers that is multiplied by 2 by NumberCruncher.");
         numbers.stream().map(NumberCrusher).forEach(System.out::println);
     }
 }
